@@ -1,0 +1,23 @@
+.spacelr{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.carousel-control-next{
+    padding-right: 10%;
+  }
+.carousel-control-prev{
+    padding-left: 10%;
+  }
+.carousel-control-next, .carousel-control-prev {
+
+}
+.halfcircle{
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+  height: 60px;
+  width: 30px;
+  border-radius: 0px 150px 150px 0px;
+  background-color: black;
+}
