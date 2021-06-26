@@ -3,7 +3,7 @@ import './Card.css'
 
 
 
-function Card({topic,name,starrating,stock,picture}) {
+function Card({name,starrating,stock,picture}) {
   return (
     <div className="title">
       <div class="card cardframe">

@@ -3,3 +3,14 @@
     width: 30px;
     margin-left: 15px;
 }
+.spacelr{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.navbarspace{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import Card from '././Components/Card';
+import CardSlider from '././Components/CardSlider'
 import Navbar from '././Components/Navbar';
 import Slide from './Components/Slide';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,21 +13,11 @@ function App() {
       <Navbar />
       <Slide />
 
-      
-      {/* <Card 
-      topic="สินค้าขายดี"
-      name="ชื่อสินค้า"
-      starrating="5"
-      stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
-      />
-      <Card 
-      topic="สินค้าแนะนำ"
-      name="ชื่อสินค้า"
-      starrating="5"
-      stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
-      /> */}
+      <CardSlider 
+      title="สินค้าขายดี"/>
+      <CardSlider 
+      title="สินค้าแนะนำ"/>
+
       
     </div>
   );
