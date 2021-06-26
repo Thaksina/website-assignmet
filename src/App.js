@@ -11,20 +11,22 @@ function App() {
     <div className="App">
       <Navbar />
       <Slide />
-      <Card 
+
+      
+      {/* <Card 
       topic="สินค้าขายดี"
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./puclic/shirtpic.jpg"       
+      picture="./shirtpic.jpg"       
       />
       <Card 
       topic="สินค้าแนะนำ"
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./puclic/shirtpic.jpg"       
-      />
+      picture="./shirtpic.jpg"       
+      /> */}
       
     </div>
   );
