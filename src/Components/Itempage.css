@@ -44,3 +44,7 @@
 .itemnavbarborder{
     border-bottom: 1px solid grey;
 }
+
+.paypagepadding{
+    padding-right: 5% !important
+}
