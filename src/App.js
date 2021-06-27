@@ -29,6 +29,8 @@ const Home = () =>(
       title="สินค้าขายดี"/>
       <CardSlider 
       title="สินค้าแนะนำ"/>
+
+
   </div>
 
 );
