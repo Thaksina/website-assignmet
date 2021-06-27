@@ -25,7 +25,7 @@ function Card({name,starrating,stock,picture,price}) {
 
   <button type="button" class="btn-outline-primary addcart">Add Cart</button>
   <div class="card-body">
-  <p class="card-text">{starrating}</p>
+    <img class="starmock" src="./starmock.png" alt="Card image cap" />
     <p class="cardtitle">{name}</p>
     <p class="cardtitle price">THB{price}.00</p>
     <h5 class="cardtitle pricededuct">THB{price-100}.00</h5>
