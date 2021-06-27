@@ -3,6 +3,7 @@ import './Card.css'
 import Card  from "./Card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -29,7 +30,8 @@ function CardSlider({title}) {
   return (
     <div className="title">
         <h2>{title}</h2>
-      <Carousel responsive={responsive}>
+      <Carousel responsive={responsive}>    
+      <Link to="/Itempage">
   <div>
   <Card 
       name="ชื่อสินค้า"
@@ -39,6 +41,8 @@ function CardSlider({title}) {
       price="599"       
       />
   </div>
+  </Link>
+
   <div>
   <Card 
       name="ชื่อสินค้า"

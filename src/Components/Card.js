@@ -6,6 +6,7 @@ function Card({name,starrating,stock,picture,price}) {
   return (
     <div className="title">
       <div class="cardframe">
+        
       <div class="stocktitle">
          <img
       className="stockicon"
