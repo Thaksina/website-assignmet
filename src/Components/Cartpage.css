@@ -1,0 +1,49 @@
+.topiccartpage{
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+
+.productspace{
+    padding-left: 10%;
+}
+
+.productname{
+    padding-left: 10%;
+    padding-top: 10%;
+    
+}
+
+.fonttomiddle{
+    padding-top: 2%;
+}
+
+.cartbutton{
+    width: 200px;
+    border-radius: 20px;
+    font-weight: 900;
+    margin: 0px 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+}
+
+.totalnote{
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.paddingnote{
+    padding: 5%;
+}
+
+.paddingtopnote{
+    padding-top: 20px;
+}
+
+.notesubmitbutton{
+    padding: .375rem .75rem;
+    border-radius: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: -webkit-fill-available;
+
+}
