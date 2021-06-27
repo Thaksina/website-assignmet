@@ -1,7 +1,91 @@
+div{
+    font-family: 'Prompt', sans-serif;
+
+}
 .title{
     text-align: left;
-    padding: 10% 10% 0% 10%;
+    padding: 10% 10% 5% 10%;
 }
 .cardframe{
     width: 10rem;
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    height: 400px;
+}
+.cardframe:hover{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 12rem;
+    margin: -10px;
+}
+
+.stockname{
+    display: contents;
+    color: darkseagreen;
+    font-size: 15px;
+
+}
+.stockicon{
+    height: 10px;
+    width: 10px;
+    margin-right: 2%;
+}
+
+.stocktitle{
+    padding-bottom: 4%;
+}
+
+.addcart {
+    display: none;
+}
+.likesticker{
+    display: none;
+}
+.statisticsticker{
+    display: none;
+}
+.cardframe:hover .addcart{
+    background-color: transparent;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0% 10%;
+}
+
+.price{
+    color: gainsboro;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+}
+.pricededuct{
+    font-size: 1.1rem;
+}
+.cardtitle {
+    margin-bottom: 0rem;
+}
+
+.cardframe:hover .likesticker{
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 77%;
+    width: 20px;
+
+}
+
+.cardframe:hover .statisticsticker{
+    display: block;
+    position: absolute;
+    top: 18%;
+    left: 77%;
+    width: 20px;
+
 }

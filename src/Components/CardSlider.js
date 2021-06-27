@@ -35,7 +35,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
   <div>
@@ -43,7 +44,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
   <div>
@@ -51,7 +53,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
   <div>
@@ -59,7 +62,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
     </div>
   <div>
@@ -67,7 +71,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
   <div>
@@ -75,7 +80,8 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
   <div>
@@ -83,10 +89,11 @@ function CardSlider({title}) {
       name="ชื่อสินค้า"
       starrating="5"
       stock="มีสินค้า"
-      picture="./shirtpic.jpg"       
+      picture="./shirtpic.jpg"
+      price="599"       
       />
   </div>
-</Carousel>;
+</Carousel>
     </div>
   );
 }
