@@ -3,6 +3,7 @@ import './Navbar.css'
 import { Link } from "react-router-dom";
 
 
+
 function Popup() {
   return (
     <div className="App">
@@ -10,7 +11,9 @@ function Popup() {
   <div className="upperpopup">
       <strong>รายการสินค้า</strong>
   <p>2 สินค้าในตระกร้า</p>
+  <Link to="/cart">
   <button type="button" class="btn btn-outline-primary">แก้ไขตะกร้าสินค้า</button>
+  </Link>
   </div>
   <hr></hr>
 
@@ -26,7 +29,10 @@ function Popup() {
 
 <div className="upperpopup">
 <p>ยอดรวม: THB898.00</p>
+<Link to="/paypage">
+
 <button type="button" class="btn btn-primary">ไปชำระเงิน</button>
+</Link>
 </div>
 
 

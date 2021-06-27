@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Card({name,starrating,stock,picture,price}) {
   return (
     <div className="title">
-      <Link to="/itempage" params={{ name: "hello" }}>
+      <Link to="/itempage" params={{ name: "testfail" }}>
       <div class="cardframe">
         
       <div class="stocktitle">

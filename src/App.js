@@ -5,6 +5,8 @@ import Itempage from '././Components/Itempage'
 import CardSlider from '././Components/CardSlider'
 import Navbar from '././Components/Navbar';
 import Slide from './Components/Slide';
+import Cartpage from '././Components/Cartpage';
+import Paypage from '././Components/Paypage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
 
@@ -16,6 +18,8 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home}/>
       <Route path="/itempage" component={Itempage}/>
+      <Route path="/cart" component={Cartpage}/>
+      <Route path="/paypage" component={Paypage}/>
       </Switch>
     </div>
   </Router>
