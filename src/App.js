@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Switch>
       <Route path="/" exact component={Home}/>
-      <Route path="/Itempage" component={Itempage}/>
+      <Route path="/itempage" component={Itempage}/>
       </Switch>
     </div>
   </Router>

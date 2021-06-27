@@ -1,10 +1,12 @@
 import React from 'react'
 import './Card.css'
+import { Link } from "react-router-dom";
 
 
 function Card({name,starrating,stock,picture,price}) {
   return (
     <div className="title">
+      <Link to="/itempage" params={{ name: "hello" }}>
       <div class="cardframe">
         
       <div class="stocktitle">
@@ -29,6 +31,7 @@ function Card({name,starrating,stock,picture,price}) {
     <h5 class="cardtitle pricededuct">THB{price-100}.00</h5>
   </div>
 </div>
+</Link>
     </div>
   );
 }

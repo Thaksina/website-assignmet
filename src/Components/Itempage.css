@@ -1,0 +1,46 @@
+.itempictue{
+    width: inherit;
+}
+.addcartbutton{
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+}
+
+.buttonframe{
+    padding: 5%;
+}
+
+.incrementbutton{
+    padding: 0% 15%;
+    background: transparent;
+    border-radius: 25px;
+
+}
+.decrementbutton{
+    padding: 0% 8%;
+    background: transparent;
+    border-radius: 25px;
+
+}
+
+.bgincrememt{
+    background-color: blueviolet;
+}
+
+.itemnavbar{
+    padding-top: 5%;
+}
+
+.itemnavbarborder{
+    border-bottom: 1px solid grey;
+}

@@ -31,7 +31,6 @@ function CardSlider({title}) {
     <div className="title">
         <h2>{title}</h2>
       <Carousel responsive={responsive}>    
-      <Link to="/Itempage">
   <div>
   <Card 
       name="ชื่อสินค้า"
@@ -41,7 +40,6 @@ function CardSlider({title}) {
       price="599"       
       />
   </div>
-  </Link>
 
   <div>
   <Card 
