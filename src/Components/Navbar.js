@@ -8,7 +8,7 @@ import useVisiblityToggler from "./useVisiblityToggler";
 
 function Navbar() {
   const [ContactCardComponent, toggleCardVisiblity] = useVisiblityToggler(
-    <Popup />,true);
+    <Popup />,false);
   const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <div className="App">
